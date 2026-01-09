@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AirlineReservationScreen</class>
+ <widget class="QDialog" name="AirlineReservationScreen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>601</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>571</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: rgb(70, 153, 123);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Roboto&quot;, &quot;Helvetica Neue&quot;, Arial, sans-serif;
+    qproperty-alignment: AlignHCenter;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Airline Reservation System</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Full Name:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>50</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    /* Typography */
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Arial&quot;;
+    font-size: 14px;
+    font-weight: 400;
+
+    /* Text &amp; Background */
+    color: #1f1f1f;
+    background-color: #ffffff;
+
+    /* Border */
+    border: 1px solid #cfd6e0;
+    border-radius: 6px;
+
+}
+
+/* Hover effect */
+QLineEdit:hover {
+    border-color: #9bbce8;
+    background-color: #fcfdff;
+}
+
+/* Focus effect */
+QLineEdit:focus {
+    border-color: #1b6ca8;
+    background-color: #ffffff;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>90</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    /* Typography */
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Arial&quot;;
+    font-size: 14px;
+    font-weight: 400;
+
+    /* Text &amp; Background */
+    color: #1f1f1f;
+    background-color: #ffffff;
+
+    /* Border */
+    border: 1px solid #cfd6e0;
+    border-radius: 6px;
+ 
+}
+
+/* Hover effect */
+QLineEdit:hover {
+    border-color: #9bbce8;
+    background-color: #fcfdff;
+}
+
+/* Focus effect */
+QLineEdit:focus {
+    border-color: #1b6ca8;
+    background-color: #ffffff;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Phone Number:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Departure City:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>140</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    /* Typography */
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Arial&quot;;
+    font-size: 14px;
+    font-weight: 400;
+    
+
+    /* Text &amp; Background */
+    color: #1f1f1f;
+    background-color: #ffffff;
+
+    /* Border */
+    border: 1px solid #cfd6e0 ;
+    border-radius: 6px;
+	
+}
+
+/* Hover effect */
+QComboBox:hover {
+    border-color: #9bbce8;
+    background-color: #fcfdff;
+}
+
+/* Focus effect */
+QComboBox:focus {
+    border-color: #1b6ca8;
+    background-color: #ffffff;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>140</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Arrival City:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>140</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    /* Typography */
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Arial&quot;;
+    font-size: 14px;
+    font-weight: 400;
+    
+
+    /* Text &amp; Background */
+    color: #1f1f1f;
+    background-color: #ffffff;
+
+    /* Border */
+    border: 1px solid #cfd6e0 ;
+    border-radius: 6px;
+	
+}
+
+/* Hover effect */
+QComboBox:hover {
+    border-color: #9bbce8;
+    background-color: #fcfdff;
+}
+
+/* Focus effect */
+QComboBox:focus {
+    border-color: #1b6ca8;
+    background-color: #ffffff;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QDateEdit" name="dateEdit">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>190</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>190</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Departure Date:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_3">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>190</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    /* Typography */
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Arial&quot;;
+    font-size: 14px;
+    font-weight: 400;
+    
+
+    /* Text &amp; Background */
+    color: #1f1f1f;
+    background-color: #ffffff;
+
+    /* Border */
+    border: 1px solid #cfd6e0 ;
+    border-radius: 6px;
+	
+}
+
+/* Hover effect */
+QComboBox:hover {
+    border-color: #9bbce8;
+    background-color: #fcfdff;
+}
+
+/* Focus effect */
+QComboBox:focus {
+    border-color: #1b6ca8;
+    background-color: #ffffff;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>190</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Class:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Choose Airline:</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_4">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>250</y>
+     <width>121</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    /* Typography */
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Arial&quot;;
+    font-size: 14px;
+    font-weight: 400;
+    
+
+    /* Text &amp; Background */
+    color: #1f1f1f;
+    background-color: #ffffff;
+
+    /* Border */
+    border: 1px solid #cfd6e0 ;
+    border-radius: 6px;
+	
+}
+
+/* Hover effect */
+QComboBox:hover {
+    border-color: #9bbce8;
+    background-color: #fcfdff;
+}
+
+/* Focus effect */
+QComboBox:focus {
+    border-color: #1b6ca8;
+    background-color: #ffffff;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>300</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Flight No:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>290</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    /* Typography */
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Arial&quot;;
+    font-size: 14px;
+    font-weight: 400;
+
+    /* Text &amp; Background */
+    color: #1f1f1f;
+    background-color: #ffffff;
+
+    /* Border */
+    border: 1px solid #cfd6e0;
+    border-radius: 6px;
+}
+
+/* Hover effect */
+QLineEdit:hover {
+    border-color: #9bbce8;
+    background-color: #fcfdff;
+}
+
+/* Focus effect */
+QLineEdit:focus {
+    border-color: #1b6ca8;
+    background-color: #ffffff;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>340</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;;
+    font-size: 12px;
+    font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Ticket Price:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_4">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>330</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    /* Typography */
+    font-family: &quot;Segoe UI&quot;, &quot;Inter&quot;, &quot;Arial&quot;;
+    font-size: 14px;
+    font-weight: 400;
+
+    /* Text &amp; Background */
+    color: #1f1f1f;
+    background-color: #ffffff;
+
+    /* Border */
+    border: 1px solid #cfd6e0;
+    border-radius: 6px;
+}
+
+/* Hover effect */
+QLineEdit:hover {
+    border-color: #9bbce8;
+    background-color: #fcfdff;
+}
+
+/* Focus effect */
+QLineEdit:focus {
+    border-color: #1b6ca8;
+    background-color: #ffffff;
+}
+</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>370</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #6fdc8c,
+        stop:1 #2fa866
+    );
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background: qlineargradient(
+        x1:0, y1:0, x2:0, y2:1,
+        stop:0 #7fe09a,
+        stop:1 #34b673
+    );
+}
+
+QPushButton:pressed {
+    background: #2fa866;
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Book Flight</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

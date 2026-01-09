@@ -1,0 +1,13 @@
+Flight Booking Details
+=====================
+Passenger Name: Shahwar Kiyani
+Phone Number: 03189255930
+Departure City: Islamabad
+Arrival City: Toronto
+Departure Date: 09 Jan 2026
+Class: First Class
+Airline: Qatar Airways
+Flight Number: QR-410E
+Ticket Price: PKR 165000
+=====================
+

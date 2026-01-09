@@ -1,0 +1,10 @@
+release/airlinereservationscreen.o
+release/main.o
+release/mainwindow.o
+release/registerscreen.o
+release/userstore.o
+release/visa_form_screen.o
+release/moc_airlinereservationscreen.o
+release/moc_mainwindow.o
+release/moc_registerscreen.o
+release/moc_visa_form_screen.o

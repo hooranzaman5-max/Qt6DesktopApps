@@ -1,0 +1,10 @@
+debug/airlinereservationscreen.o
+debug/main.o
+debug/mainwindow.o
+debug/registerscreen.o
+debug/userstore.o
+debug/visa_form_screen.o
+debug/moc_airlinereservationscreen.o
+debug/moc_mainwindow.o
+debug/moc_registerscreen.o
+debug/moc_visa_form_screen.o
